@@ -49,5 +49,5 @@ class Neural_network:
                     w[min][j] = w[min][j] + v*(self.X_normolize[ind][j] - w[min][j])
             v -= m
             count -= 1
-            print('эпоха')
+            print('e')
         print(w)
